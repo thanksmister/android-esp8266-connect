@@ -14,7 +14,7 @@ An Android application that connects to an ESP8266 WiFi module through a shared 
 
 # Setup
 
-From the release section download and sideload the APK file onto your phone.  If you have the ESP8266 project setup and running, the Android application will be able to automatically connect to the access point using the default IP address, access point name and password.   These can be changed in the application settings.    To communicate with the ESP8266, the application sends a "on" or "off" command to toggle the LED light. 
+From the release section download and sideload the APK file onto your phone.  If you have the ESP8266 project setup and running, the Android application will be able to automatically connect to the access point using the default IP address, access point name and password.   These can be changed in the application settings.    To communicate with the ESP8266, the application sends a "on" or "off" command to toggle the LED light. Once you are done, you can disconnect from the access point to return to your previous WiFi connection.
 
 # Images
 
