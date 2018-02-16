@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 ThanksMister LLC
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed
+  ~ under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <color name="colorPrimary">#ff0083b2</color>
+    <color name="colorPrimaryDark">#036e94</color>
+    <color name="colorAccent">#ff7dac2f</color>
+
+    <color name="text_black_80">#DE000000</color>
+    <color name="text_black_75">#bf000000</color>
+    <color name="text_black_60">#99000000</color>
+    <color name="text_black_54">#8A000000</color>
+    <color name="text_black_38">#61000000</color>
+    <color name="text_black_20">#1f000000</color>
+
+    <color name="text_white_80">#DEFFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="light_green">#ff7dac2f</color>
+    <color name="light_green_pressed">#ff67932c</color>
+    <color name="text_green">#ff67932c</color>
+    <color name="yellow">#eeee22</color>
+    <color name="orange">#D5B213</color>
+    <color name="gray">#fe818181</color>
+    <color name="blue">#0099cc</color>
+    <color name="blue_pressed">#ff0083b2</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#efefef</color>
+    <color name="red">#d7523e</color>
+    <color name="red_light_up">#fff4492c</color>
+    <color name="red_light_pressed">#ffd3402a</color>
+    <color name="gray_color">#eeeeee</color>
+    <color name="list_gray_color">#f7f7f7</color>
+    <color name="gray_up">#e5e5e5</color>
+    <color name="gray_pressed">#cfcfcf</color>
+    <color name="dark_gray_color">#ff707070</color>
+    <color name="text_link">#0099cc</color>
+
+</resources>
