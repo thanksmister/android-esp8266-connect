@@ -15,14 +15,14 @@
   -->
 
 <resources>
-    <string name="app_name">ESP8266 Connect</string>
+    <string name="app_name" translatable="false">ESP8266 Connect</string>
     <string name="button_connect">Connect</string>
     <string name="button_retry">Retry</string>
     <string name="error_network_disconnected">Network disconnected…</string>
     <string name="title_settings">Settings</string>
     <string name="pref_address">Address</string>
     <string name="pref_ssid">WiFi Name (SSID)</string>
-    <string name="pref_address_value">http://192.168.4.1</string>
+    <string name="pref_address_value" translatable="false">http://192.168.4.1</string>
     <string name="pref_server">Access Point</string>
     <string name="pref_address_description">Enter the name for the access point.</string>
     <string name="pref_password">WiFi Password</string>
