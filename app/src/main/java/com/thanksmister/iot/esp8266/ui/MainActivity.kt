@@ -152,8 +152,12 @@ class MainActivity : BaseActivity(), TransmitFragment.OnFragmentInteractionListe
     }
 
     override fun connectWifi() {
-        if(wifiStatus != WiFiStatus.CONNECTED && wifiStatus != WiFiStatus.CONNECTING ) {
-            wiFiReceiverManager?.connectWifi(preferences.ssID()!!, preferences.password()!!)
+        try{
+            if(wiFiReceiverManager != null && wifiStatus != WiFiStatus.CONNECTED && wifiStatus != WiFiStatus.CONNECTING ) {
+                wiFiReceiverManager?.connectWifi(preferences.ssID()!!, preferences.password()!!)
+            }
+        } catch (e: NullPointerException) {
+            Timber.e(e.message)
         }
     }
 
