@@ -17,6 +17,7 @@
 package com.thanksmister.iot.esp8266.api;
 
 public enum Status {
+    START,
     LOADING,
     SUCCESS,
     ERROR

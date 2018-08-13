@@ -42,7 +42,7 @@ class TransmitFragment : BaseFragment() {
     @Inject lateinit var viewModelFactory: ViewModelProvider.Factory
     @Inject lateinit var viewModel: TransmitViewModel
     private var listener: OnFragmentInteractionListener? = null
-    private var networkStatus: Status? = null
+    private var networkStatus: Status = Status.START
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -113,17 +113,21 @@ class TransmitFragment : BaseFragment() {
     }
 
     private fun processNetworkResponse(response: NetworkResponse?) {
-        networkStatus = response?.status
-        when (networkStatus) {
-            Status.LOADING -> {
-                //
-            }
-            Status.SUCCESS -> {
-                //
-            }
-            Status.ERROR -> {
-                val message = response?.error?.message.toString()
-                Snackbar.make(activity!!.findViewById(android.R.id.content), message, Snackbar.LENGTH_LONG).show()
+        if(response?.status != null) {
+            networkStatus = response.status
+            when (networkStatus) {
+                Status.LOADING -> {
+                    //
+                }
+                Status.SUCCESS -> {
+                    //
+                }
+                Status.ERROR -> {
+                    val message = response.error?.message.toString()
+                    Snackbar.make(activity!!.findViewById(android.R.id.content), message, Snackbar.LENGTH_LONG).show()
+                }
+                else -> {
+                }
             }
         }
     }
