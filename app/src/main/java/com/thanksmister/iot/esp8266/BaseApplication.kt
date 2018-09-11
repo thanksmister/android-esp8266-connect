@@ -16,14 +16,11 @@
 
 package com.thanksmister.iot.esp8266
 
-import com.crashlytics.android.Crashlytics
 import com.facebook.stetho.Stetho
 import com.thanksmister.iot.esp8266.di.DaggerApplicationComponent
 
 import dagger.android.AndroidInjector
 import dagger.android.DaggerApplication
-import io.fabric.sdk.android.Fabric
-import io.reactivex.plugins.RxJavaPlugins
 import timber.log.Timber
 
 class BaseApplication : DaggerApplication() {
