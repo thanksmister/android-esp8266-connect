@@ -50,9 +50,6 @@
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".ui.LogActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value="d328872540a331f2245f3d7b842d06bbb7ac1c60" />
     </application>
 
 </manifest>

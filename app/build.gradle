@@ -18,12 +18,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'io.fabric'
 
 def versionMajor = 0
 def versionMinor = 1
 def versionPatch = 0
-def versionBuild = 1 // bump for dog food builds, public betas, etc.
+def versionBuild = 2 // bump for dog food builds, public betas, etc.
 
 android {
     kapt {
@@ -146,8 +145,5 @@ dependencies {
     compile "com.facebook.stetho:stetho-urlconnection:${stetho}"
 
     testCompile 'junit:junit:4.12'
-    compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
-        transitive = true;
-    }
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }

@@ -41,12 +41,6 @@ class BaseApplication : DaggerApplication() {
                     .enableDumpapp(Stetho.defaultDumperPluginsProvider(this))
                     .enableWebKitInspector(Stetho.defaultInspectorModulesProvider(this))
                     .build())
-        } else {
-            Fabric.with(this, Crashlytics())
-            Timber.plant(CrashlyticsTree())
         }
     }
-
-
-
 }
